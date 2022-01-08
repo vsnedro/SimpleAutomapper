@@ -71,8 +71,8 @@ namespace SimpleAutoMapper
         {
             var memberPairs = sourceMembers
                 .Join(destinationMembers,
-                    src => src.Name.ToLowerInvariant(),
-                    dest => dest.Name.ToLowerInvariant(),
+                    src => src.Name,
+                    dest => dest.Name,
                     (src, dest) => new { SourceMember = src, DestinationMember = dest })
                 .ToList();
 
