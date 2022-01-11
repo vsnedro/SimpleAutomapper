@@ -2,7 +2,6 @@
 Simple automapper
 
 ## Description
-
 SimpleAutomapper is a small simple library for automatically mapping one object to another.
 
 ## Example:
